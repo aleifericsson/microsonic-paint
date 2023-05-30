@@ -1,0 +1,65 @@
+h1{
+    color:darkslateblue;
+    font-family: monospace;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding:10px;
+    gap:10px;
+}
+
+.icon{
+    height: 50px;
+    width: 50px;
+}
+
+.separator{
+    height:200px;
+}
+
+body{
+    background-color:darkslateblue;
+}
+
+.box{
+    width: 20px; 
+    height: 20px;
+    flex-shrink:0;
+    border:0.5px solid lightgray;
+}
+
+.red{
+    background-color: darkred;
+}
+
+.blue{
+    background-color: darkslateblue;
+}
+
+.green{
+    background-color:mediumseagreen;
+}
+
+.black{
+    background-color:#222;
+}
+
+.white{
+    background-color: white;
+}
+
+.clear{
+    padding:3px;
+    background-color: white;
+    border:0.5px solid lightgray;
+}
+
+.colors{
+    display:flex;
+    justify-content: center;
+    gap:50px;
+    margin:100px;
+}
